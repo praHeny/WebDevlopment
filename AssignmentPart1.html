@@ -1,0 +1,139 @@
+    <!-- 
+        Name: Heny Prajapati
+        File: mozilla-splash-page.html
+        Date: 05 February 2025
+        Description: This file contains the HTML code for the Mozilla splash page tutorial.
+    -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Mozilla Splash Page</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="part1.css">
+    <style>
+        /* General Styles */
+        body {
+            font-family: 'Open Sans', sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #ff9500;
+            padding: 20px;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        header img {
+            width: 80px;
+            height: auto;
+        }
+
+        main {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+
+        iframe {
+            width: 100%;
+            max-width: 600px;
+            height: 315px;
+            border: none;
+            margin-bottom: 20px;
+        }
+
+        .further-info {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 15px;
+            padding: 20px;
+        }
+
+        .further-info a {
+            display: block;
+            text-decoration: none;
+        }
+
+        .further-info img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            transition: transform 0.3s;
+        }
+
+        .further-info img:hover {
+            transform: scale(1.05);
+        }
+
+        footer {
+            background-color: #222;
+            color: white;
+            padding: 10px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <img src="C:\Users\heny prajapati\OneDrive\Desktop\SEM 2\Web Development\mozilla-firefox-icon-4.png"alt="Mozilla Firefox Logo">
+        <h1>Mozilla</h1>
+    </header>
+
+    <main>
+        <article>
+            <!-- Embedded YouTube Video -->
+            <iframe src="https://www.youtube.com/embed/ojcNcvb1olg" allowfullscreen></iframe>
+
+            <h2>Rocking the Free Web</h2>
+            <p>
+                Mozilla is a global community of technologists, thinkers, and builders working together to keep the 
+                Internet alive and accessible. Our mission is to ensure people worldwide can be informed contributors 
+                and creators of the Web. We believe this act of human collaboration across an open platform is 
+                essential to individual growth and our collective future.
+            </p>
+            <p>
+                Click on the images below to find more information about the cool stuff Mozilla does.
+                <a href="C:\Users\heny prajapati\OneDrive\Desktop\SEM 2\Web Development\Blue-Firefox-PNG-Image-Background.png">Red panda picture</a> by Mathias Appel.
+            </p>
+        </article>
+
+        <!-- Additional Resources -->
+        <div class="further-info">
+            <a href="https://www.mozilla.org/en-US/firefox/new/">
+                <img src="C:\Users\heny prajapati\OneDrive\Desktop\SEM 2\Web Development\mozilla-firefox-icon-4.png" alt="Download Firefox">
+            </a>
+            <a href="https://www.mozilla.org/">
+                <img src="C:\Users\heny prajapati\OneDrive\Desktop\SEM 2\Web Development\mozila.png"alt="Learn more about Mozilla">
+            </a>
+            <a href="images/firefox-addons.jpg">
+                <img src="C:\Users\heny prajapati\OneDrive\Desktop\SEM 2\Web Development\Blue-Firefox-PNG-Image-Background.png" alt="Customize Firefox with add-ons">
+            </a>
+            <a href="https://developer.mozilla.org/en-US/">
+                <img src="C:\Users\heny prajapati\OneDrive\Desktop\SEM 2\Web Development\MDN.png" alt="Learn web development with MDN">
+            </a>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Heny Prajapati</p>
+    </footer>
+</body>
+
+</html>
